@@ -4,7 +4,9 @@ body {
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 60px;
+  color: rgb(78, 199, 199);
+  padding: 10px;
 }
 
 h3 {
@@ -15,6 +17,9 @@ h3 {
 .navbar {
   padding: 10px;
   background: #5191fd;
+  color: blue;
+  padding: 10px;
+  background: aqua
 }
 
 /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
@@ -34,6 +39,9 @@ h3 {
   text-decoration: none;
 }
 
+.navbar-brand {
+  color: aquamarine
+}
 /* Styling the header, giving it a height, a background color, and some top padding */
 .header {
   height: 200px;
@@ -45,7 +53,8 @@ h3 {
 .header h1 {
   padding: 60px;
   margin: 0;
-  color: #000;
+  color: aqua;
+  background: aqua;
   text-align: center;
 }
 
