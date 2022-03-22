@@ -27,7 +27,6 @@ h3 {
   padding: 10px;
   background: #5191fd;
   color: blue;
-  background: aqua
 }
 
 /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
@@ -56,7 +55,7 @@ h3 {
   font-size: 20px;
   height: 50px;
   color: white;
-  background: aqua;
+  background: rgb(78, 199, 199);
   text-align: center;
 }
 
@@ -65,7 +64,7 @@ h3 {
   padding: 10px;
   height: 50px;
   color: white;
-  background: aqua;
+  background: rgb(78, 199, 199);;
   text-align: center;
 }
 
