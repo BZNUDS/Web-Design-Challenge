@@ -2,22 +2,12 @@
 
 Hello Central Grader,
 
-As of 3:15pm CT on March 21st, this is still work in progeress (WIP). I was travelling this past week, so I plan to upload my homework as soon as I can. 
+As of 10:27am CT on March 22nd, this is still work in progeress (WIP). I was travelling last week, so trying tp catch up with my homework as soon as I can. 
 
 Sorry for the inconvenience,
 
 Brian
 
-
-
-
-Hello Central Grader,
-
-As of 11:15pm CT on March 20th, this is still work in progeress (WIP). I was travelling this week, so I plan to upload my homework as soon as I can. 
-
-Sorry for the inconvenience,
-
-Brian
 
 
 
