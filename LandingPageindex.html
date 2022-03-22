@@ -46,6 +46,7 @@
     color: black;
     padding: 12px 16px;
     text-decoration: none;
+    position: center;
     display: block;
   }
   
@@ -55,62 +56,31 @@
   </style>
  
 <body>
-<!--
-  <h2>Clickable Dropdown</h2>
-  <p>Click on the button to open the dropdown menu.</p>  
--->
-  
 
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Lattitude</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-
-<!--
-    <div class="row">
-        <div class="dropdown">
-        
-          <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-          <div id="myDropdown" class="dropdown-content">
-            <a class="dropdown-item" href="MaxTemp.html">Maximun Temperature</a>
-            <a class="dropdown-item" href="Humid.html">Humidity</a>
-            <a class="dropdown-item" href="Cloud.html">Cloudiness</a>
-            <a class="dropdown-item" href="Wind.html">Wind Speed</a>
-          </div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <p>Lattitude</p>
+    </div>
+    <div class="col-md-6">
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown button
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="MaxTemp.html">Maximun Temperature</a>
+          <a class="dropdown-item" href="Humid.html">Humidity</a>
+          <a class="dropdown-item" href="Cloud.html">Cloudiness</a>
+          <a class="dropdown-item" href="Wind.html">Wind Speed</a>
         </div>
--->
-
-          
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="MaxTemp.html">Maximun Temperature</a>
-                  <a class="dropdown-item" href="Humid.html">Humidity</a>
-                  <a class="dropdown-item" href="Cloud.html">Cloudiness</a>
-                  <a class="dropdown-item" href="Wind.html">Wind Speed</a>
-                  <!--
-                  <a class="dropdown-item" href="https://www.google.com">google</a>
-                  <a class="dropdown-item" href="about.html">about page</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                  -->
-                </div>
-            </div>
-        
-
-        </div>
+      </div>
+    </div>
   </div>
+</div>
+   
+</div>
 </nav>
-
-
-
-  
   <script>
   /* When the user clicks on the button, 
   toggle between hiding and showing the dropdown content */
