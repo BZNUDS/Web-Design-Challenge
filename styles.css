@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 10px;
   color: rgb(78, 199, 199);
   padding: 10px;
 }
@@ -18,7 +18,6 @@ h3 {
   padding: 10px;
   background: #5191fd;
   color: blue;
-  padding: 10px;
   background: aqua
 }
 
@@ -35,7 +34,7 @@ h3 {
 
 /* Getting rid of the default link styles here */
 .navbar li a {
-  color: #000;
+  color: rgb(156, 36, 36);
   text-decoration: none;
 }
 
@@ -44,16 +43,19 @@ h3 {
 }
 /* Styling the header, giving it a height, a background color, and some top padding */
 .header {
-  height: 200px;
-  padding-top: 20px;
-  background: #cdcdcd;
+  padding: 10px;
+  font-size: 20px;
+  height: 50px;
+  color: white;
+  background: aqua;
+  text-align: center;
 }
 
 /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
 .header h1 {
-  padding: 60px;
-  margin: 0;
-  color: aqua;
+  padding: 10px;
+  height: 50px;
+  color: white;
   background: aqua;
   text-align: center;
 }
