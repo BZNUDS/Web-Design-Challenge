@@ -13,6 +13,7 @@ h2 {
   font-size: 25px;
   color: rgb(78, 199, 199);
   padding: 20px;
+  font-weight: bold;
 }
 
 
@@ -20,6 +21,7 @@ h3 {
   font-size: 30px;
   color: rgb(78, 199, 199);
   padding: 20px;
+  font-weight: bold;
 }
 
 /* Giving our navbar some padding and a background color */
@@ -73,4 +75,21 @@ h3 {
   margin-top: 50px;
   margin-right: 100px;
   margin-left: 100px;
+}
+
+
+p.normal {
+  font-weight: normal;
+}
+
+p.light {
+  font-weight: lighter;
+}
+
+p.thick {
+  font-weight: bold;
+}
+
+p.thicker {
+  font-weight: 900;
 }
