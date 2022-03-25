@@ -27,7 +27,7 @@ h3 {
 /* Giving our navbar some padding and a background color */
 .navbar {
   padding: 10px;
-  background: #5191fd;
+  background: white;
   color: blue;
 }
 
@@ -50,8 +50,23 @@ h3 {
 }
 
 .navbar-brand {
-  color: aquamarine
+  color:  white;
+  background: rgb(78, 199, 199);
+  font-weight: bold; 
+  padding: 10px;
 }
+
+.nav-link {
+  color: rgb(161, 26, 26);
+} 
+
+.navbar-dark {
+    color:  grey;
+    background: none;
+    font-weight: bold; 
+    padding: 10px;
+  }
+
 /* Styling the header, giving it a height, a background color, and some top padding */
 .header {
   padding: 0px;
@@ -67,7 +82,7 @@ h3 {
   padding: 10px;
   height: 50px;
   color: white;
-  background: rgb(78, 199, 199);;
+  background: rgb(78, 199, 199);
   text-align: center;
 }
 
