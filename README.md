@@ -44,6 +44,7 @@ The website must consist of 7 pages total, including:
   * Contains all of the visualizations on the same page so we can easily visually compare them.
   * Uses a Bootstrap grid for the visualizations.
     * The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
+  * As a bonus, I added live links to each visulizaion image so it takes you directly to their corresponding visualizaton page
 * A ["Data" page](#data-page) that:
   * Displays a responsive table containing the data used in the visualizations.
     * The table must be a bootstrap table component. [Hint](https://getbootstrap.com/docs/4.3/content/tables/#responsive-tables)
