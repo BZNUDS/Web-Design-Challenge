@@ -50,8 +50,11 @@ h3 {
 }
 
 .navbar-brand {
-  color: aquamarine
+  color: aquamarine;
+  background: green;
+
 }
+
 /* Styling the header, giving it a height, a background color, and some top padding */
 .header {
   padding: 0px;
@@ -94,3 +97,8 @@ p.thick {
 p.thicker {
   font-weight: 900;
 }
+
+
+
+
+

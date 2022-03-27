@@ -14,10 +14,11 @@ Special thanks to TA Mohamed Hamza for his extra effort/suppport
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="style.css">
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
   <title>Landing Page Web-Design-Challenge Visualization Dashboard</title>
   <style>
     .dropbtn {
@@ -75,16 +76,14 @@ Special thanks to TA Mohamed Hamza for his extra effort/suppport
   Updated 3/24: Added Push Navbar code provided during office hours on 3/16 and modified to nake work as needed for this assignment 
 -->
 
-  <nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">Lattitude</a>
-
+      <a class="navbar-brand" style="color: white" href="index.html">Lattitude</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-t navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Plots
@@ -96,44 +95,83 @@ Special thanks to TA Mohamed Hamza for his extra effort/suppport
               <li><a class="dropdown-item" href="Wind.html">Wind Speed</a></li>
             </ul>
           </li>
-
           <li class="nav-item" padding=0>
             <a class="nav-link" href="Compare.html">Comparison</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="Data.html">Data</a>
           </li>
- 
         </ul>
-      
       </div>
     </div>
-  </nav>
+</nav>
 
-    <div class="container">
+
+<div class="row">
+    <div class="col-md-1">
+      <p></p>
+    </div>
+    <div class="col-md-1">
+        <p></p>
+    </div>
+    <div class="row">
+        <p></p>
+    </div>
+    <div class="row">
+        <p></p>
+    </div>
+    <div class="col-md-1">
+        <p></p>
+    </div>
+    <div class="bigbox col-sm-12 col-md-4">
+        <h3>Summary: Lattitude vs. X</h3>
         <div class="row">
-            <h3>Summary: Lattitude vs. X</h3>
-            <div class="bigbox col-sm-3 col-md-6 col-lg-6">
-                <article class=“description-content”>
-                <img class="float-start" width="150px" src="Resources/assets/images/Fig1.png">
-                <p>The purpose of this project is to analyze how weather changes as you get closer to the equator. The purpose
-                    of this project is to analyze how weather changes as you get closer to the equator. The purpose of this
-                    project is to analyze how weather changes as you get closer to the equator. The purpose of this project is
-                    to analyze how weather changes as you get closer to the equator. The purpose of this project is to analyze
-                    how weather changes as you get closer to the equator.</p>
-                </article>
+            <p></p>
+        </div>
+        <div class="row">
+            <p></p>
+        </div>
+        <article class=“description-content”>
+            <img class="float-start" padding="10px" margin-right="10px" height="250px" width="250px" src="Resources/assets/images/Fig1.png">
+            <hp>The purpose of this project is to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first 
+                pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</hp>
+            <div class="row">
+                <p></p>
             </div>
-            <h2>Visualizations</h2>
-            <div class="smallbox col-sm-3 col-md-6 col-lg-5">
-                <ol>
-                    <img width="85px" src="Resources/assets/images/Fig1.png">
-                    <img width="85px" src="Resources/assets/images/Fig2.png">
-                    <img width="85px" src="Resources/assets/images/Fig3.png">
-                    <img width="85px" src="Resources/assets/images/Fig4.png">
-                    </ol>
+            <div class="row">
+                <p></p>
             </div>
+            <hp>After assembling this dataset, we used Matplotlib to plot various aspects of the weather vs. lattitude. Factors we looked at included: 
+                temperature, cloudiness, wind speed and humidity. This site provides the source data and the visualizations created as part of the 
+                analysis, as well as explainations and descriptions of any trends and correlations witnessed.</hp>
+        </article>
+        <div class="row">
+            <p></p>
+        </div>
+        <div class="row">
+            <p></p>
         </div>
     </div>
+    <div class="col-md-1">
+      <p></p>
+    </div>
+    <div class="bigbox col-sm-12 col-md-4 col-lg-2">
+      <h2>Visualizations</h2>
+      <div class="row">
+        <p></p>
+    </div>
+      <ol>
+        <img class="float-start" height="130px" width="115px" src="Resources/assets/images/Fig1.png"> <!--Max Temp-->
+        <img class="float-start" height="130px" width="115px" src="Resources/assets/images/Fig2.png"> <!--Humid-->
+        <img class="float-start" height="130px" width="115px" src="Resources/assets/images/Fig3.png"> <!--Cloud-->
+        <img class="float-start" height="130px" width="115px" src="Resources/assets/images/Fig4.png"> <!--Wind-->
+      </ol>
+    </div>
+    <div class="col-md-1">
+      <p></p>
+    </div>
+  </div>
+</div>
 
   <script>
     /* When the user clicks on the button, 
